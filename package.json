@@ -1,0 +1,31 @@
+{
+  "name": "shinde-hw-9b",
+  "version": "1.0.0",
+  "description": "Homework 9b",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bharti685-create/shinde-hw-9b.git"
+  },
+  "keywords": [
+    "Homework",
+    "9b",
+    "form",
+    "get",
+    "post"
+  ],
+  "author": "Bharti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bharti685-create/shinde-hw-9b/issues"
+  },
+  "homepage": "https://github.com/Bharti685-create/shinde-hw-9b#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "multer": "^1.4.2"
+  }
+}

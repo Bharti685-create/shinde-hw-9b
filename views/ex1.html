@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shinde Hw 9b Signup Form Page</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <a href="/"> Link to Start Page</a>
+  <h1>Signup Form</h1>
+  <form>
+    <h2>Bharti's Sample Form</h2>
+    <p>
+      <label for="username">Username</label>:
+      <input type="text" name="username" id="username" required>
+      <span id="usernameHelp"></span>
+    </p>
+    <p>
+      <label for="password">Password</label>:
+      <input type="password" name="password" id="password" required>
+      <span id="passwordHelp"></span>
+    </p>
+    <p>
+      <label for="emailAddress">Email address</label>:
+      <input type="email" name="emailAddress" id="emailAddress" required placeholde\ r="user@domain">
+      <span id="emailHelp"></span>
+    </p>
+
+    <p>
+      <input type="radio" name="Payment Type" id="cash" value="Payment Type">
+      <label for="cash">Cash</label>
+      <br>
+      <input type="radio" name="Payment Type" id="Credit card" value="Credit card">
+      <label for="Credit card">Credit card</label>
+      <br>
+
+      <input type="radio" name="Payment Type" id="Google play" value="Google pay" checked>
+      <label for="Google play">Google Pay</label>
+      <br>
+      <input type="radio" name="Payment Type" id="Apple pay" value="Apple pay" checked>
+      <label for="Apple pay">Apple Pay</label>
+    </p>
+    <br>
+    <p>
+      <input type="checkbox" name="confirmation" id="confirmation">
+      <label for="confirmation">Sign me up for special promotion</label>
+    </p>
+    <br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Cancel">
+  </form>
+  <p id="result"></p>
+  <script src="/ex1.js"></script>
+  <a href="/ex1">Example 1</a><br>
+</body>
+
+</html>
